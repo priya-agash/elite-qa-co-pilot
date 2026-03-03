@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useTheme } from '../../utils/ThemeContext';
 
 export function Card({ children, className = '', glow }) {
@@ -180,4 +181,3 @@ export function CopyButton({ text, label = 'Copy' }) {
 }
 
 // Need useState for CopyButton
-import { useState } from 'react';
